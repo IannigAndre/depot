@@ -5,7 +5,7 @@
 float maximum (float n1, float n2 )
 {
    if (n1 < n2){
-		maximum = n2;
+		float max = n2;
 	}
 	else{
 		return 0;
@@ -16,7 +16,7 @@ float maximum (float n1, float n2 )
 float minimum (float n1, float n2 )
 {
    if (n2 < n1){
-		minimum = n1;
+		float min = n1;
 	}
 	else{
 		return 0;
@@ -26,7 +26,7 @@ float minimum (float n1, float n2 )
 /******************* Addition de nombres ***********************/
 float addition (float n1, float n2 )
 {
-	addition = n1 + n2;
-   return 0;
+	float add = n1 + n2;
+	return 0;
 }
 
