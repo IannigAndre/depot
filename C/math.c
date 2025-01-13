@@ -6,9 +6,10 @@ float maximum (float n1, float n2 )
 {
    if (n1 < n2){
 		float max = n2;
+		return n2;
 	}
 	else{
-		return 0;
+		return n1;
 	}
 }
 
@@ -17,9 +18,10 @@ float minimum (float n1, float n2 )
 {
    if (n2 < n1){
 		float min = n1;
+		return n1;
 	}
 	else{
-		return 0;
+		return n2;
 	}
 }
 
@@ -27,6 +29,6 @@ float minimum (float n1, float n2 )
 float addition (float n1, float n2 )
 {
 	float add = n1 + n2;
-	return 0;
+	return add;
 }
 
